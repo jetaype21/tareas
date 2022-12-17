@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio Num1</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+  <main>
+    <h2 class="title">Ordenando Numeros</h2>
+    <section class="container">
+      <!-- form -->
+      <form id="formUser">
+        <label for="numUser">Ingrese un numero: </label>
+        <input type="text" id="numUser">
+        <button type="submit">Agregar numero</button>
+      </form>
+
+      <!-- Resultado -->
+      <article class="container__results">
+        <p>Tus numeros son: <br>
+          <span id="outputNums"></span>
+        </p>
+
+        <button id="btnOrdenar">Ordenar</button>
+        <p>Tus numeros ordenados son: <br>
+          <span id="outputNumsOrdenados"></span>
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>

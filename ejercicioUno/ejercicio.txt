@@ -1,0 +1,1 @@
+# Pedir al usuario una cantidad de numeros enteros y ordenarlos de menor a mayor
